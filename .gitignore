@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 打包产物：exe 走 GitHub Release 附件，不进仓库
+build/
+dist/
+
+# 本地运行时生成的配置（实际写在 %APPDATA%\ElfPet\，这里只是兜底）
+desktop_pet_config.json
+config.json
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
